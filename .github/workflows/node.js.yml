@@ -32,4 +32,4 @@ jobs:
           echo "Container 'reactv1' does not exist."
           fi
       - name: run the docker container
-        run: docker run -dp 80:80 --name reactv1  tinphancr7/react:v1
+        run: docker run -dp 8080:80 --name reactv1  tinphancr7/react:v1
